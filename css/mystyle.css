@@ -1,0 +1,71 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  color: #666;
+  line-height: 1.8em;
+  font-size: 16px;
+  font-family: "Gill Sans", sans-serif;
+  font-weight: 400;
+}
+
+.img1, .img2, .img3 {
+  position: relative;
+  opacity: 0.85;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* scroll */
+}
+
+.img1 {
+  background-image: url('../img/pic1.jpg');
+  min-height: 100%;
+}
+
+.img2 {
+  background-image: url('../img/pic2.jpg');
+  min-height: 500px;
+}
+
+.img3 {
+  background-image: url('../img/pic3.jpg');
+  min-height: 500px;
+  overflow: hidden;
+}
+
+.section {
+  padding: 50px 80px;
+  background-color: #666;
+  color: #ddd;
+}
+
+.border{
+  position: absolute;
+}
+
+.heading {
+  padding-bottom: 5%;
+}
+
+.border, .heading {
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.title {
+  border: 2px solid #fff;
+  padding: 8px;
+}
+
+.content {
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+/* Grid system*/
